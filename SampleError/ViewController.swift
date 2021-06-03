@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var testLabel: UILabel!
+    @IBOutlet weak var testButtonTake: UIButton!
     
     var testTitle: String?
     
