@@ -30,6 +30,9 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = testTableView.dequeueReusableCell(withIdentifier: "cellId", for: indexPath)
+        
+        cell.backgroundColor = .green
+        
         return cell
     }
     
