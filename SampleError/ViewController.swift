@@ -9,22 +9,30 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var testLabel: UILabel!
-    @IBOutlet weak var testButtonTake: UIButton!
-    
-    var testTitle: String?
+    @IBOutlet weak var testTableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if let isEmpty = testTitle?.isEmpty {
-            if isEmpty{
-                testLabel.text = "print"
-            }
-        }
+        testTableView.delegate = self
+        testTableView.dataSource = self
+        
         
     }
 
 
+}
+
+extension ViewController: UITableViewDelegate, UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 5
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = testTableView.dequeueReusableCell(withIdentifier: "cellId", for: indexPath)
+        return cell
+    }
+    
+    
 }
 
