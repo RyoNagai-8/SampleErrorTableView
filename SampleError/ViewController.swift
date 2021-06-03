@@ -16,6 +16,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        if let isEmpty = testTitle?.isEmpty {
+            if isEmpty{
+                testLabel.text = "print"
+            }
+        }
+        
     }
 
 
