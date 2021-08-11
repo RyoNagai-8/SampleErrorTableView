@@ -20,10 +20,10 @@
 		E091352A2668621D00088A80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E091352C2668621D00088A80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E091352E2668621D00088A80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E09135312668621D00088A80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E09135332668621E00088A80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E09135362668621E00088A80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E09135382668621E00088A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0A597FF26B9529400B4E524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E0A5980026B9529400B4E524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,7 +149,7 @@
 		E09135302668621D00088A80 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E09135312668621D00088A80 /* Base */,
+				E0A597FF26B9529400B4E524 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -157,7 +157,7 @@
 		E09135352668621E00088A80 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E09135362668621E00088A80 /* Base */,
+				E0A5980026B9529400B4E524 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
